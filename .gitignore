@@ -9,21 +9,21 @@ README1.md
 .terraform.lock.hcl
 
 # Local tfvars with real values (step2.tfvars is a personal copy)
-bidnewsub/step2/step2.tfvars
+newsub/step2/step2.tfvars
 
-bidexisting/bidexisting.tfvars
+existingsub/existingsub.tfvars
 
 
 # Terraform provider caches
-bidnewsub/step2/.terraform/
-bidnewsub/step1/.terraform/
+newsub/step2/.terraform/
+newsub/step1/.terraform/
 
-bidnewsub/step1/step1.tfvars
+newsub/step1/step1.tfvars
 
-bidnewsub/step2/terraform.tfvars
+newsub/step2/terraform.tfvars
 
 *.*/terraform.tfvars
 
-bidexisting/.terraform/
+existingsub/.terraform/
 
 prdexisting.md

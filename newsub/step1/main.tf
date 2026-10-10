@@ -79,7 +79,6 @@ locals {
   service_name__ai_core              = "aicore"
   service_name__hana_cloud           = "hana-cloud"
   service_name__hana                 = "hana"
-  service_name__objectstore          = "objectstore"
   service_name__xsuaa                = "xsuaa"
   service_name__destination          = "destination"
   service_name__html5_apps_repo      = "html5-apps-repo"
@@ -117,13 +116,6 @@ resource "btp_subaccount_entitlement" "hana" {
   plan_name     = var.service_plan__hana
 }
 
-resource "btp_subaccount_entitlement" "objectstore" {
-  count = var.enable_service_setup__objectstore ? 1 : 0
-
-  subaccount_id = data.btp_subaccount.this.id
-  service_name  = local.service_name__objectstore
-  plan_name     = var.service_plan__objectstore
-}
 
 resource "btp_subaccount_entitlement" "xsuaa" {
   count = var.enable_service_setup__xsuaa ? 1 : 0

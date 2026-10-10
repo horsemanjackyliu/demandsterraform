@@ -1,6 +1,6 @@
-# AI-Powered Procurement Bidding Evaluation — SAP BTP Account Setup
+# Build A SAP S/4Hana Demands Forecast Application with CAP and AI Core — SAP BTP Account Setup
 
-This repository contains Terraform configurations for setting up your SAP BTP account for the Discovery Center Mission [AI-Powered Procurement Bidding Evaluation](https://discovery-center.cloud.sap/index.html#/missiondetail/4327/).
+This repository contains Terraform configurations for setting up your SAP BTP account for the Discovery Center Mission [Build A SAP S/4Hana Demands Forecast Application with CAP and AI Core](https://discovery-center.cloud.sap/index.html#/missiondetail/4327/).
 
 Two setup paths are provided depending on whether you are starting from scratch or using an existing BTP subaccount.
 
@@ -8,21 +8,21 @@ Two setup paths are provided depending on whether you are starting from scratch 
 
 Before you begin, ensure you have the following installed and configured:
 
-| Requirement | Notes |
-|---|---|
-| [Git](https://git-scm.com/downloads) | To clone this repository |
-| [Terraform CLI](https://developer.hashicorp.com/terraform/install) | v1.3 or later recommended |
-| [VS Code](https://code.visualstudio.com/) (optional) | Recommended editor with [HashiCorp Terraform extension](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform) |
-| SAP BTP Global Account | With admin access |
-| SAP BTP credentials | Your BTP username and password |
+| Requirement                                                        | Notes                                                                                                                            |
+| ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| [Git](https://git-scm.com/downloads)                               | To clone this repository                                                                                                         |
+| [Terraform CLI](https://developer.hashicorp.com/terraform/install) | v1.3 or later recommended                                                                                                        |
+| [VS Code](https://code.visualstudio.com/) (optional)               | Recommended editor with [HashiCorp Terraform extension](https://marketplace.visualstudio.com/items?itemName=HashiCorp.terraform) |
+| SAP BTP Global Account                                             | With admin access                                                                                                                |
+| SAP BTP credentials                                                | Your BTP username and password                                                                                                   |
 
 ## Get Started
 
 Clone this repository and navigate into the setup folder:
 
 ```bash
-git clone https://github.com/horsemanjackyliu/btpsetupterraform.git
-cd btpsetupterraform
+git clone https://github.com/horsemanjackyliu/demandsterraform.git
+cd demandsterraform
 ```
 
 ## Choose Your Setup Path
@@ -31,13 +31,13 @@ cd btpsetupterraform
 
 Use this path if you want Terraform to **create a new BTP subaccount** and Cloud Foundry environment from scratch.
 
-→ Follow the instructions in [`bidnewsub/README.md`](bidnewsub/README.md)
+→ Follow the instructions in [`newsub/README.md`](newsub/README.md)
 
 ### Option B — Existing BTP Subaccount
 
 Use this path if you already have a **BTP subaccount with Cloud Foundry** provisioned and want to provision services into it.
 
-→ Follow the instructions in [`bidexisting/README.md`](bidexisting/README.md)
+→ Follow the instructions in [`existingsub/README.md`](existingsub/README.md)
 
 ## Repository Structure
 

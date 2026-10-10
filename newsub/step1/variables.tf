@@ -32,13 +32,13 @@ variable "subaccount_id" {
 variable "subaccount_name" {
   description = "Display name for the subaccount."
   type        = string
-  default     = "bidsub"
+  default     = "demandssub"
 }
 
 variable "subaccount_domain" {
   description = "Subdomain for the subaccount."
   type        = string
-  default     = "bidsub"
+  default     = "demandssub"
 }
 
 variable "subaccount_admins" {
@@ -207,20 +207,6 @@ variable "service_plan__hana" {
   }
 }
 
-# ------------------------------------------------------------------------------------------------------
-# SAP Object Store
-# ------------------------------------------------------------------------------------------------------
-variable "enable_service_setup__objectstore" {
-  description = "Enable entitlement of SAP Object Store (Amazon S3)."
-  type        = bool
-  default     = true
-}
-
-variable "service_plan__objectstore" {
-  description = "The plan for SAP Object Store."
-  type        = string
-  default     = "standard"
-}
 
 # ------------------------------------------------------------------------------------------------------
 # XSUAA

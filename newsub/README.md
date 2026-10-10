@@ -20,7 +20,6 @@ Uses the `SAP/btp` provider only.
   - SAP AI Core (`aicore`)
   - SAP HANA Cloud (`hana-cloud`)
   - SAP HANA schemas & HDI containers (`hana`)
-  - Object Store (`objectstore`)
   - XSUAA (`xsuaa`)
   - Destination (`destination`)
   - HTML5 Application Repository (`html5-apps-repo`)
@@ -118,7 +117,7 @@ To deploy the resources you must:
 
 11. Verify in BTP cockpit and CF that the dev space, org/space roles, AI Core service instance, and service key have been created.
 
-With this you have completed the quick account setup as described in the Discovery Center Mission - [AI-Powered Procurement Bidding Evaluation](https://discovery-center.cloud.sap/index.html#/missiondetail/4327/).
+With this you have completed the quick account setup as described in the Discovery Center Mission - [Build A SAP S/4Hana Demands Forecast Application with CAP and AI Core](https://discovery-center.cloud.sap/index.html#/missiondetail/4327/).
 
 ## Cleanup
 

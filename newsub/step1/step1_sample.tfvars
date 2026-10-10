@@ -2,8 +2,8 @@
 # Account settings
 # ------------------------------------------------------------------------------------------------------
 globalaccount     = "<your-global-account-subdomain>"
-subaccount_name   = "bidsub"
-subaccount_domain = "bidsub"
+subaccount_name   = "demandssub"
+subaccount_domain = "demandssub"
 region            = "us10"
 
 custom_idp = "<your-custom-idp-tenant>.accounts.ondemand.com"
@@ -37,7 +37,6 @@ create_tfvars_file_for_step2 = true
 #enable_service_setup__ai_core                   = false
 #enable_service_setup__hana_cloud                = false
 #enable_service_setup__hana                      = false
-#enable_service_setup__objectstore               = false
 #enable_service_setup__xsuaa                     = false
 #enable_service_setup__destination               = false
 #enable_service_setup__html5_apps_repo           = false
