@@ -43,11 +43,11 @@ Use this path if you already have a **BTP subaccount with Cloud Foundry** provis
 
 ```
 .
-├── bidnewsub/          # Option A: Creates a new subaccount + CF environment
+├── ewsub/          # Option A: Creates a new subaccount + CF environment
 │   ├── step1/          #   Step 1 — BTP subaccount, CF org, entitlements, subscriptions
 │   └── step2/          #   Step 2 — CF space, space roles, AI Core service instance
 │
-└── bidexisting/        # Option B: Targets an existing subaccount + CF space
+└── existingsub/        # Option B: Targets an existing subaccount + CF space
 ```
 
 ## Resources
