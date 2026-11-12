@@ -1,6 +1,6 @@
-# Build A SAP S/4Hana Demands Forecast Application with CAP and AI Core — SAP BTP Account Setup
+# Build A SAP S/4Hana Demands Forecast Application with CAP and Model SAP-RPT-TS — SAP BTP Account Setup
 
-This repository contains Terraform configurations for setting up your SAP BTP account for the Discovery Center Mission [Build A SAP S/4Hana Demands Forecast Application with CAP and AI Core](https://discovery-center.cloud.sap/index.html#/missiondetail/4327/).
+This repository contains Terraform configurations for setting up your SAP BTP account for the Discovery Center Mission [Build A SAP S/4Hana Demands Forecast Application with CAP and Model SAP-RPT-TS](https://discovery-center.cloud.sap/index.html#/missiondetail/4327/).
 
 Two setup paths are provided depending on whether you are starting from scratch or using an existing BTP subaccount.
 
